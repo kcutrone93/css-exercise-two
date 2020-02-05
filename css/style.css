@@ -10,7 +10,6 @@ h1 {
 
 h3 {
   font-size: 2em; /* 31.25px */
-
 }
 
 p, .author {
@@ -18,7 +17,11 @@ p, .author {
 }
 
 p {
-  line-height: 1.2;
+  line-height: 1.4;
+}
+
+figcaption {
+  font-size: 0.8em
 }
 
 nav {
@@ -33,7 +36,7 @@ nav {
   width: 100px;
 }
 
-.large-pic {
+.left {
   width: 100%;
 }
 
@@ -50,9 +53,13 @@ nav {
   float: right;
 }
 
-.right:hover {
+a {
   text-decoration: none;
-  color: #FFFFF;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: none;
 }
 
 ul {
