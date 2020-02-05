@@ -6,10 +6,15 @@ body {
 
 h1 {
   font-size: 3em; /* 48.83px */
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 h3 {
   font-size: 2em; /* 31.25px */
+  margin-left: 5px;
+  margin-top: 7px;
 }
 
 p, .author {
@@ -29,6 +34,17 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+  margin: 10px;
+  padding: 0px;
+}
+
+figure {
+  margin-left: 5px;
+}
+
+.author {
+  margin-left: 5px;
+  margin-top: 6px;
 }
 
 .logo {
@@ -41,7 +57,7 @@ nav {
 }
 
 .medium-pic {
-  width: 70%;
+  width: 60%;
 }
 
 .left, .right {
@@ -51,6 +67,12 @@ nav {
 
 .right {
   float: right;
+}
+
+.story-text {
+  margin: 5px;
+  margin-top: 10px;
+  margin-left: 5px;
 }
 
 a {
